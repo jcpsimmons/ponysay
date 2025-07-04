@@ -295,7 +295,7 @@ class Ponysay():
         self.__bestpony(self.args)
         self.__ucsremap(self.args)
         if self.__test_nfdnf('-o'):
-            self.mode += '$/= $$\\= $'
+            self.mode += '$/= $$\\\\= $'
             self.args.message = ''
             self.ponyonly = True
         else:
